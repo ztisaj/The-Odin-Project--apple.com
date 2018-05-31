@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+}
+
+.first {
+    background-image: url(img/mainback.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 538px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 36px;
+    margin-top: 2%;
+}
+
+.apfel {
+    height: 20px;
+}
+
+button {
+    width: 103px;
+    cursor: pointer;
+    background-image: linear-gradient(#8a8a8a, #707070 50%, #5e5e5e 51%, #787878);
+    border: 1px solid #7c7c7c;
+    color: #fff;
+    font-weight: lighter;
+    letter-spacing: 0.5px;
+    border-right: 1px solid #4c4c4c;
+}
+
+.first_butt {
+    border-radius: 4px 0 0 4px;
+    border-right: 1px solid #4c4c4c;
+}
+
+.search {
+    width: 132px;
+    border-radius: 0 4px 4px 0;
+}
+
+.in_put {
+    width: 91px;
+    height: 13px;
+    border-radius: 10px;
+    border-top: 2px solid #3a3a3a;
+    border-bottom: 1px solid #878787;
+    border-left: 1px solid #555;
+    border-right: 1px solid #555;
+    background: transparent url(img/search2co.png) left no-repeat;
+    color: white;
+    padding-left: 15px;
+}
+
+.title {
+    margin-top: 7%;
+    cursor: pointer;
+}
+
+.small {
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.smal {
+    cursor: pointer;
+}
+
+.second {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    justify-content: center;
+    border-top: 2px solid white;
+}
+
+.photo {
+    width: 24.95%;
+    margin-right: 2px;
+    cursor: pointer;
+}
+
+.third {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px 12%;
+    align-items: baseline;
+}
+
+.up {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.up_left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.para,
+.links {
+    font-size: 12px;
+    color: #adadad;
+}
+
+.usa {
+    width: 12px;
+    height: 12px;
+}
+
+.links {
+    color: #84bde3;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.up_right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.sm_ur {
+    border-right: 1px solid #ccc;
+    padding-right: 6px;
+    margin-right: 6px;
+    word-spacing: 1px;
+}
+
+.down {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
