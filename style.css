@@ -40,12 +40,12 @@ button {
 
 .first_butt {
     border-radius: 4px 0 0 4px;
-    border-right: 1px solid #4c4c4c;
 }
 
 .search {
     width: 132px;
     border-radius: 0 4px 4px 0;
+    border-right: none;
 }
 
 .in_put {
@@ -150,10 +150,3 @@ button {
     flex-direction: row;
     margin-top: 10px;
 }
-
-
-
-
-
-
-
